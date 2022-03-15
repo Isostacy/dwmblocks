@@ -3,7 +3,7 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 /*	{"", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	30,		0}, */
 	{" ", "pamixer --get-volume",					1,		0},
-	{"",   "/home/bowiten/.local/bin/playerstatus",			1,		0},
+	{"",   "playerstatus",						1,		0},
 	{" ", "uname -r",				          	30,		0},
 	{" ", "date '+%a %b %d, %Y'",					5,		0},
 	{" ", "date '+%I:%M %p'", 		 			5,		0},
