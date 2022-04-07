@@ -5,6 +5,7 @@ static const Block blocks[] = {
 	{" ", "pamixer --get-volume",					1,		0},
 	{"",   "playerstatus",						1,		0},
 	{" ", "uname -r",				          	30,		0},
+	{"",   "forecast",				          	30,		0},
 	{" ", "date '+%a %b %d, %Y'",					5,		0},
 	{" ", "date '+%I:%M %p'", 		 			5,		0},
 };
